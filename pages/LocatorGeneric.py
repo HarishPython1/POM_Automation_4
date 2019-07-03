@@ -1,4 +1,5 @@
 from selenium.common.exceptions import *
+import xlrd
 class LocatorGeneric:
     def __init__(self, driver):
         self.driver = driver
@@ -32,6 +33,17 @@ class LocatorGeneric:
         except Exception as e:
             print(e)
 
+    def get_val(Sheet_Name, input_val):
+        wb = xlrd.open_workbook("C:/Users/BTM-Faculty/PycharmProjects/POM_Automation_4/data/datadriven.xlsx")
+        ws = wb.sheet_by_name(Sheet_Name)
+        row_count = ws.nrows
+        col_count = ws.ncols
+        for i in range(row_count):
+            for j in range(col_count):
+                if (ws.cell_value(i, j) == input_val):
+                    val = ws.cell_value(i + 1, j)
+            break
+        return val
 
 
 

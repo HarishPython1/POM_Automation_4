@@ -12,8 +12,12 @@ class LoginPage(WebGeneric):
     def acti_login(self):
         # Logint to application - section 2 >>S2
         #self.driver.find_element_by_id("username").send_keys("admin")
-        self.wg.enter("id",self.un_id,USERNAME)
+        un= self.wg.get_val("Login","UserName")
+        #self.wg.enter("id",self.un_id,USERNAME)
+        self.wg.enter("id",self.un_id,un)
         #self.driver.find_element_by_name("pwd").send_keys("manager")
-        self.wg.enter("name",self.pwd_name,PASSWORD)
+
+        self.wg.enter("name",self.pwd_name,self.wg.get_val("Login","Password"))
+        #self.wg.enter("name",self.pwd_name,PASSWORD)
         #self.driver.find_element_by_xpath("//*[text()='Login ']").click()
         self.wg.submit("xpath",self.login_btn_xpath)
