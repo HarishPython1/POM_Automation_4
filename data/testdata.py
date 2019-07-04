@@ -1,4 +1,4 @@
 #URL="http://localhost/login.do"
-URL="https://www.facebook.com/"
+URL="https://phptravels.com/"
 USERNAME="admin"
 PASSWORD="manager"
