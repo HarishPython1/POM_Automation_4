@@ -45,6 +45,9 @@ class LocatorGeneric:
             break
         return val
 
+    def delete_cookies(self):
+        self.driver.delete_all_cookies()
+
 
 
 

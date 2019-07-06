@@ -7,5 +7,5 @@ def test_setup(request):
     driver = webdriver.Chrome(
         executable_path="C:/Users/BTM-Faculty/PycharmProjects/POM_Automation_4/drivers/chromedriver.exe")
     driver.get(URL)
-    driver.implicitly_wait(30)
+    driver.implicitly_wait(MED_WAIT)
     request.cls.driver = driver

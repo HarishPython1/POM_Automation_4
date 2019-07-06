@@ -8,4 +8,5 @@ class  TestWindowHandling:
     def test_window_handling(self):
         driver=self.driver
         dd=WindowHandlingPage(driver)
+        dd.delete_cookies()
         dd.window_handle()
