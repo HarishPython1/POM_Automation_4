@@ -1,5 +1,8 @@
+import allure
 from selenium.common.exceptions import *
 import xlrd
+import os
+import moment
 class LocatorGeneric:
     def __init__(self, driver):
         self.driver = driver
@@ -47,6 +50,15 @@ class LocatorGeneric:
 
     def delete_cookies(self):
         self.driver.delete_all_cookies()
+
+    def get_screenshot(self):
+        cur_time = moment.now().strftime("%d-%m-%Y_%H-%M-%S")
+        screenshot_name = "scr_" + cur_time
+        allure.attach(self.driver.get_screenshot_as_png(), name=screenshot_name,
+                      attachment_type=allure.attachment_type.PNG)
+        self.driver.get_screenshot_as_file(
+            os.getcwd().replace("\\", "/").replace("pages","") + "/screenshots/" + screenshot_name + ".png")
+        print(os.getcwd().replace("\\", "/").replace("tests", "screenshots") + "/" + screenshot_name + ".png")
 
 
 

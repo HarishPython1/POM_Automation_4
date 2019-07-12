@@ -21,3 +21,4 @@ class LoginPage(WebGeneric):
         #self.wg.enter("name",self.pwd_name,PASSWORD)
         #self.driver.find_element_by_xpath("//*[text()='Login ']").click()
         self.wg.submit("xpath",self.login_btn_xpath)
+        self.wg.get_screenshot()

@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28adf8cd-897c-4a8a-8891-389d1723a996" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/drivers/test_addtocart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/addtocart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/POM_Automation_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POM_Automation_4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/testdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/testdata.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/LocatorGeneric.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/LocatorGeneric.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/WebGeneric.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/WebGeneric.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_fb_windowHandlingdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_fb_windowHandlingdemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_fb_windowHandlingdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/fb_windowHandlingdemo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,55 +19,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1963917361">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="97" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="97" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/LocatorGeneric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="253">
+              <caret line="61" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="61" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/testdata.py">
+        <entry file="file://$PROJECT_DIR$/pages/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="408">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -73,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/WebGeneric.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            <state relative-caret-position="324">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
                 <element signature="e#0#57#0" expanded="true" />
               </folding>
@@ -85,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="189">
+              <caret line="7" column="78" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="78" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -95,9 +67,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rough/getPathDemo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/WindowHadnlingDemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="81">
               <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -106,14 +87,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_fb_windowHandlingdemo.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/fb_windowHandlingdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="162">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drivers/test_addtocart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/addtocart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -149,16 +157,19 @@
         <option value="$PROJECT_DIR$/tests/test_fb_login.py" />
         <option value="$PROJECT_DIR$/pages/FB_LoginPage.py" />
         <option value="$PROJECT_DIR$/rough/ReadDataUsingXlrd.py" />
-        <option value="$PROJECT_DIR$/pages/LoginPage.py" />
         <option value="$PROJECT_DIR$/rough/getPathDemo.py" />
         <option value="$PROJECT_DIR$/tests/test_fb_draganddropdemo.py" />
         <option value="$PROJECT_DIR$/pages/DragDemo.py" />
         <option value="$PROJECT_DIR$/pages/WindowHadnlingDemo.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/data/testdata.py" />
         <option value="$PROJECT_DIR$/pages/WebGeneric.py" />
-        <option value="$PROJECT_DIR$/pages/LocatorGeneric.py" />
         <option value="$PROJECT_DIR$/tests/test_fb_windowHandlingdemo.py" />
+        <option value="$PROJECT_DIR$/tests/test_addtocart.py" />
+        <option value="$PROJECT_DIR$/tests/test_search.py" />
+        <option value="$PROJECT_DIR$/drivers/test_addtocart.py" />
+        <option value="$PROJECT_DIR$/pages/LocatorGeneric.py" />
+        <option value="$PROJECT_DIR$/pages/LoginPage.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
       </list>
     </option>
   </component>
@@ -178,18 +189,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="POM_Automation_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_Automation_4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="POM_Automation_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_Automation_4" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="POM_Automation_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="POM_Automation_4" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="POM_Automation_5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POM_Automation_5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,11 +201,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BTM-Faculty\PycharmProjects\POM_Automation_5\drivers" />
+      <recent name="C:\Users\BTM-Faculty\PycharmProjects\POM_Automation_5\tests" />
       <recent name="C:\Users\BTM-Faculty\PycharmProjects\POM_Automation_4\pages" />
       <recent name="C:\Users\BTM-Faculty\PycharmProjects\POM_Automation_4\tests" />
       <recent name="C:\Users\BTM-Faculty\PycharmProjects\POM_Automation_4\drivers" />
@@ -335,29 +338,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1042" height="738" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33366835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3972056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28104576" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07679739" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.055846423" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.16176471" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Login Page Automation Demo" />
@@ -414,20 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rough/getPathDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/fb_draganddropdemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -439,33 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/WindowHadnlingDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/testdata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -486,37 +445,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/selenium/webdriver/support/expected_conditions.py" />
+    <entry file="file://$PROJECT_DIR$/data/testdata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1070">
-          <caret line="293" column="30" lean-forward="true" selection-start-line="293" selection-start-column="30" selection-end-line="293" selection-end-column="30" />
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/WebGeneric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="324">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="e#0#57#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/LocatorGeneric.py">
+    <entry file="file://$PROJECT_DIR$/pages/WindowHadnlingDemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="81">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="39" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_fb_windowHandlingdemo.py">
+    <entry file="file://$PROJECT_DIR$/tests/fb_windowHandlingdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="162">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/addtocart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drivers/test_addtocart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rough/getPathDemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/LocatorGeneric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="61" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="61" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
