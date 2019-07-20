@@ -80,10 +80,17 @@ class LocatorGeneric:
             wait.until(
                 EC.visibility_of_element_located(By.XPATH, locator_val))
 
-    def switch_to_alert(self):
+    def accept_alert(self):
         try:
-            self.driver.switch_to.alert()
-            return True
+            a=self.driver.switch_to.alert()
+            a.accept()
+        except NoAlertPresentException:
+            return False
+
+    def dismiss_alert(self):
+        try:
+            a=self.driver.switch_to.alert()
+            a.dismiss()
         except NoAlertPresentException:
             return False
 
@@ -107,7 +114,11 @@ class LocatorGeneric:
         actions.send_keys(Keys.ESCAPE)
 
     def validate_title(self,expected_res):
-        val = self.driver.title
+        val = self.driver.title#app
+        assert val == expected_res
+
+    def validate_SuccMessage(self,expected_res):
+        val = self.driver.title#app>>text
         assert val == expected_res
 
     def get_screenshot(self, log):

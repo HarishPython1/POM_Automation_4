@@ -1,0 +1,10 @@
+//input[@id='email']
+//input[contains(@id,'ema')]
+//input[starts-with(@id,'ema')]
+//a[text()='Forgotten account?']
+//a[contains(text(),'Forgotten')]
+
+//div[@class='_1T-JyI']//parent::div
+//div[@class='_1T-JyI']//child::div/a[2]
+//div[@class='_1T-JyI']//following-sibling::div
+//div[@class='_1jA3uo']//preceding-sibling::div

@@ -9,7 +9,6 @@ from pages.FlipKartLoginPage import FBLoginPage
 @pytest.mark.usefixtures("test_setup")
 class TestFBSearch:
    # @pytest.mark.parametrize("un,pwd", [("test", "testpwd")])
-    #@pytest.mark.skip
     @pytest.mark.smoke
     def test_login(self):
         driver = self.driver
