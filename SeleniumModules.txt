@@ -1,0 +1,6 @@
+selenium
+pytest
+allure-pytest
+xlrd
+moment
+pytest-html

@@ -115,10 +115,18 @@ class LocatorGeneric:
 
     def validate_title(self,expected_res):
         val = self.driver.title#app
-        assert val == expected_res
+        try:
+            assert val != expected_res
+        except AssertionError as e:
+            print(e)
+            self.get_screenshot()
+        except:
+            self.get_screenshot()
+
+
 
     def validate_SuccMessage(self,expected_res):
-        val = self.driver.title#app>>text
+        val = self.locator().text#app>>text
         assert val == expected_res
 
     def get_screenshot(self, log):

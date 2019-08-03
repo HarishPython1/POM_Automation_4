@@ -6,15 +6,16 @@ class WebGeneric(LocatorGeneric):
         self.lc = LocatorGeneric(self.driver)
 
     #enter text values[locator_type, locator_val, input_val]
+    #@Given Enter "INPUT VAL" "LOCATORType" and "Locator Val"
     def enter(self, locator_type, locator_val, input_val):
         var = self.locator(locator_type, locator_val)
         var.send_keys(input_val)
-        self.get_screenshot("Entered "+input_val+" in text field")
+        #self.get_screenshot("Entered "+input_val+" in text field")
 
     def submit(self, locator_type, locator_val):
         var = self.locator(locator_type, locator_val)
         var.click()
-        self.get_screenshot("Clicked on a web element ")
+        #self.get_screenshot("Clicked on a web element ")
 
     def get_text_list(self, loc_type, locator_val):
         elements = self.mul_locator(loc_type, locator_val)

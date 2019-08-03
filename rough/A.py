@@ -32,9 +32,9 @@ driver.find_element_by_xpath("//input[@name='q']").send_keys("qspiders")
 
 
 
-enter un["xpath","a","b"]
-enter pwd[]
-click on logn
+# enter un["xpath","a","b"]
+# enter pwd[]
+# click on logn
 
 
 
